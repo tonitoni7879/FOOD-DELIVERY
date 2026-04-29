@@ -1,0 +1,22 @@
+@media (max-width: 992px) {
+    .menu-layout { grid-template-columns: 1fr; }
+    .menu-sidebar { position: static; display: flex; overflow-x: auto; padding-bottom: 10px; white-space: nowrap; }
+    .menu-cat-btn { width: auto; border-left: none; border-bottom: 3px solid transparent; }
+    .menu-cat-btn.active, .menu-cat-btn:hover { border-left: none; border-bottom-color: var(--primary); }
+    .checkout-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+    .nav-container { flex-wrap: wrap; }
+    .search-container { order: 3; max-width: 100%; margin: 15px 0 0; }
+    .restaurant-header { flex-direction: column; text-align: center; }
+    .rh-img { width: 100%; height: 200px; }
+    .rh-meta { justify-content: center; }
+    .menu-item { flex-direction: column; text-align: center; }
+    .menu-item img { width: 100%; height: 180px; }
+    .add-btn { width: 100%; }
+}
+
+@media (max-width: 480px) {
+    .cart-drawer { width: 100%; }
+}
